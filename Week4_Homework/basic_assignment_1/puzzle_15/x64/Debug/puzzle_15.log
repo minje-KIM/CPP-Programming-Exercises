@@ -1,1 +1,5 @@
-﻿  puzzle_15.vcxproj -> C:\Users\minje\OneDrive - 동아대학교\github\CPP-Programming-Exercises\Week4_Homework\basic_assignment_1\x64\Debug\puzzle_15.exe
+﻿  main.cpp
+  Puzzle.cpp
+C:\Users\minje\OneDrive\바탕 화면\puzzle_15\puzzle_15\Puzzle.cpp(24,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  puzzle_15.vcxproj -> C:\Users\minje\OneDrive\바탕 화면\puzzle_15\x64\Debug\puzzle_15.exe
