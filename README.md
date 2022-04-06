@@ -10,7 +10,7 @@
 │    │        ├── main.cpp
 │    │        ├── Puzzle.cpp
 │    │        ├── Ranking.cpp
-│    │         └── Ranking.h
+│    │        └── Ranking.h
 │    │ 
 │    └── basic_assignment_2     ===============> 업로드 심화 과제 2 : 203페이지 실습문제 4 구현 
 │   
