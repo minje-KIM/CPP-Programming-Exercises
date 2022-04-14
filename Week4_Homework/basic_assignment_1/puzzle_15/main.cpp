@@ -7,6 +7,6 @@ int main()
 	int rank = PlayFifteenPuzzle();
 	PrintRanking();
 	StoreRanking("ranking.txt");
-	
+
 	return 0;
 }

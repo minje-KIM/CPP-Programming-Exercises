@@ -9,12 +9,12 @@
 
 enum Direction { Left = 75, Right = 77, Up = 72, Down = 80 };
 static int DirKey[4] = { Left, Right, Up, Down };
-static int map[DIM][DIM];	
+static int map[DIM][DIM];
 static int x, y;		// ºó Ä­ÀÇ ÁÂÇ¥ Ç¥Çö
 static int num_moved;		// ÀÌµ¿ÇÑ È½¼ö
-static clock_t time_start;	
+static clock_t time_start;
 
-static void init() 
+static void init()
 {
 	for (int i = 0; i < DIM * DIM - 1; i++)
 		map[i / DIM][i % DIM] = i + 1;
@@ -22,11 +22,11 @@ static void init()
 	x = DIM - 1; y = DIM - 1;
 
 	srand(time(NULL));	// ³­¼ö¸¦ ¹ß»ý½ÃÅµ´Ï´Ù.
-	time_start = clock();	
-	num_moved = 0;		
+	time_start = clock();
+	num_moved = 0;
 }
 
-static void display() 
+static void display()
 {
 	system("cls");
 	printf("\t15-Puzzle\n\t");
@@ -47,23 +47,23 @@ static void display()
 
 static bool move(int dir)
 {
-	if (dir == Right && x > 0) 
-	{		
+	if (dir == Right && x > 0)
+	{
 		map[y][x] = map[y][x - 1];
 		map[y][--x] = 0;
 	}
-	else if (dir == Left && x < DIM - 1) 
-	{	
+	else if (dir == Left && x < DIM - 1)
+	{
 		map[y][x] = map[y][x + 1];
 		map[y][++x] = 0;
 	}
-	else if (dir == Up && y < DIM - 1) 
-	{		
+	else if (dir == Up && y < DIM - 1)
+	{
 		map[y][x] = map[y + 1][x];
 		map[++y][x] = 0;
 	}
-	else if (dir == Down && y > 0) 
-	{		
+	else if (dir == Down && y > 0)
+	{
 		map[y][x] = map[y - 1][x];
 		map[--y][x] = 0;
 	}
@@ -82,7 +82,7 @@ static void shuffle(int num_shuffle) {
 	}
 }
 
-static bool isDone() 
+static bool isDone()
 {
 	for (int row = 0; row < DIM; row++) {
 		for (int col = 0; col < DIM; col++) {
@@ -95,26 +95,26 @@ static bool isDone()
 
 static int getDirKey() { return _getche() == 224 ? _getche() : 0; }
 
-int PlayFifteenPuzzle() 
+int PlayFifteenPuzzle()
 {
 	init();
 	display();
 	PrintRanking();
 	printf("\n ÆÛÁñÀ» ¼¯À¸·Á¸é enter¸¦ ´©¸£¼¼¿ä.");
 	_getche();
-	shuffle(100);			
+	shuffle(100);
 	printf("\n Game Start!!!!");
 	_getche();
 
-	num_moved = 0;			
-	time_start = clock();		
-	while (!isDone()) 
-	{		
-		move(getDirKey());	
-		display();		
+	num_moved = 0;
+	time_start = clock();
+	while (!isDone())
+	{
+		move(getDirKey());
+		display();
 	}
 
-	clock_t	t1 = clock();		
+	clock_t	t1 = clock();
 	double d = (double)(t1 - time_start) / CLOCKS_PER_SEC;
-	return AddRanking(num_moved, d);	
+	return AddRanking(num_moved, d);
 }
