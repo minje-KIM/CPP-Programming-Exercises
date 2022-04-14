@@ -25,3 +25,17 @@
 │           ├── main.cpp
 │           ├── minesweeper.cpp
 │           └── minesweeper.h
+│ 
+│ 
+├── Week5_Homewor2 ===============> 업로드 심화 과제 2 : 248페이지 실습문제 4번 구현
+│     ├── capture_image ===============> 실행 화면 캡쳐 이미지
+│     ├── Week5_Homework2  ===============> 실행을 위한 소스코드 있는 폴더
+│           ├── main.cpp
+│           ├── minesweeper.cpp
+│           └── minesweeper.h
+│ 
+│ 
+
+
+
+
