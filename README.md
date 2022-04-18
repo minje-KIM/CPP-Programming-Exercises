@@ -35,7 +35,12 @@
 │           └── minesweeper.h
 │ 
 │ 
-
-
-
-
+├── Week6_Homework1 ===============> 업로드 기본 과제 1 : 6.8 응용: Hangman 게임
+│     ├── capture_image ===============> 실행 화면 캡쳐 이미지
+│     └── Week6_Homework1  ===============> 실행을 위한 소스코드 있는 폴더
+│           ├── main.cpp
+│           ├── Hangman.h
+│           └── HangmanProcess.txt
+│
+│
+│
