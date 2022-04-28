@@ -1,0 +1,13 @@
+buffet 뷔페
+firewood 장작
+delay 연기하다
+construction 건설
+repair 수리하다
+currently 현재
+regularly 정기적으로
+arrange 배열하다
+restore 복구하다
+ 
+ 
+ 
+ 
