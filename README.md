@@ -43,4 +43,15 @@
 │           └── HangmanProcess.txt
 │
 │
-│
+├── Week6_Homework2 ===============> 업로드 심화 과제 2 : 302페이지 실습문제 3번 구현
+│     ├── capture_image ===============> 실행 화면 캡쳐 이미지
+│     └── Week6_Homework1  ===============> 실행을 위한 소스코드 있는 폴더
+│           ├── main.cpp
+│           ├── Hangman.h
+│           ├── MyDic.h
+│           └── HangmanProcess.txt
+│           └── example.txt (단어장)
+│ 
+│ 
+│ 
+│ 
