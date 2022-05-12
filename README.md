@@ -82,7 +82,7 @@
 │           ├── Monster.h
 │           └── Monsterworld.h
 │
-├── Week8_Homework2 ===============> 업로드 심화 과제 1 : 399페이지 실습문제 3번 구현
+├── Week8_Homework2 ===============> 업로드 심화 과제 2 : 399페이지 실습문제 3번 구현
 │     ├── capture_image ===============> 실행 화면 캡쳐 이미지
 │     └── Week8_Homework2  ===============> 실행을 위한 소스코드 있는 폴더
 │           ├── MonsterWorldGame.cpp
