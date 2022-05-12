@@ -49,9 +49,25 @@
 │           ├── main.cpp
 │           ├── Hangman.h
 │           ├── MyDic.h
-│           └── HangmanProcess.txt
+│           ├── HangmanProcess.txt
 │           └── example.txt (단어장)
 │ 
 │ 
 │ 
+├── Week7_Homework1 ===============> 업로드 기본 과제 1 : 7.8 응용: MonsterWorld 게임
+│     ├── capture_image ===============> 실행 화면 캡쳐 이미지
+│     └── Week7_Homework1  ===============> 실행을 위한 소스코드 있는 폴더
+│           ├── MonsterWorldGame.cpp
+│           ├── Canvas.h
+│           ├── Monster.h
+│           └── Monsterworld.h
+│
 │ 
+│ 
+├── Week7_Homework2 ===============> 업로드 심화 과제 2 : 348페이지 실습문제 3번 구현
+│     ├── capture_image ===============> 실행 화면 캡쳐 이미지
+│     └── Week7_Homework2  ===============> 실행을 위한 소스코드 있는 폴더
+│           ├── MonsterWorldGame.cpp
+│           ├── Canvas.h
+│           ├── Monster.h
+│           └── Monsterworld.h
