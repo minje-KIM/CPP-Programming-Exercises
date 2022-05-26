@@ -1,0 +1,3 @@
+﻿  MonsterWorldGame.cpp
+C:\Users\minje\OneDrive - 동아대학교\github\CPP-Programming-Exercises\Week10_Homework3\Week10_Homework3\MonsterWorldGame.cpp(6,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  Week10_Homework3.vcxproj -> C:\Users\minje\OneDrive - 동아대학교\github\CPP-Programming-Exercises\Week10_Homework3\x64\Debug\Week10_Homework3.exe
