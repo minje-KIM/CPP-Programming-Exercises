@@ -53,14 +53,12 @@ CPP-Programming-Exercises
 │         ├── 4_5_Painting_Puzzle  ===============> 확장 요소 5 : 그림 퍼즐 기능  (소스파일,실행파일 존재)
 │         └── 4_6_Save_in_binary_mode  ===============> 확장 요소 6 : 이진 파일 저장 기능 (소스파일,실행파일 존재)
 │  
-│  
 ├── Week5_Homework1 ===============> 업로드 기본 과제 1 :  5.6 심화 응용: 지뢰찾기 게임 구현
 │     ├── capture_image ===============> 실행 화면 캡쳐 이미지
 │     └── Week5_Homework1  ===============> 실행을 위한 소스코드 있는 폴더
 │           ├── main.cpp
 │           ├── minesweeper.cpp
 │           └── minesweeper.h
-│ 
 │ 
 ├── Week5_Homework2 ===============> 업로드 심화 과제 2 : 248페이지 실습문제 4번 구현
 │     ├── capture_image ===============> 실행 화면 캡쳐 이미지
@@ -69,14 +67,12 @@ CPP-Programming-Exercises
 │           ├── minesweeper.cpp
 │           └── minesweeper.h
 │ 
-│ 
 ├── Week6_Homework1 ===============> 업로드 기본 과제 1 : 6.8 응용: Hangman 게임
 │     ├── capture_image ===============> 실행 화면 캡쳐 이미지
 │     └── Week6_Homework1  ===============> 실행을 위한 소스코드 있는 폴더
 │           ├── main.cpp
 │           ├── Hangman.h
 │           └── HangmanProcess.txt
-│
 │
 ├── Week6_Homework2 ===============> 업로드 심화 과제 2 : 302페이지 실습문제 3번 구현
 │     ├── capture_image ===============> 실행 화면 캡쳐 이미지
@@ -87,8 +83,6 @@ CPP-Programming-Exercises
 │           ├── HangmanProcess.txt
 │           └── example.txt (단어장)
 │ 
-│ 
-│ 
 ├── Week7_Homework1 ===============> 업로드 기본 과제 1 : 7.8 응용: MonsterWorld 게임
 │     ├── capture_image ===============> 실행 화면 캡쳐 이미지
 │     └── Week7_Homework1  ===============> 실행을 위한 소스코드 있는 폴더
@@ -97,8 +91,6 @@ CPP-Programming-Exercises
 │           ├── Monster.h
 │           └── Monsterworld.h
 │
-│ 
-│ 
 ├── Week7_Homework2 ===============> 업로드 심화 과제 2 : 348페이지 실습문제 3번 구현
 │     ├── capture_image ===============> 실행 화면 캡쳐 이미지
 │     └── Week7_Homework2  ===============> 실행을 위한 소스코드 있는 폴더
@@ -106,7 +98,6 @@ CPP-Programming-Exercises
 │           ├── Canvas.h
 │           ├── Monster.h
 │           └── Monsterworld.h
-│
 │
 ├── Week8_Homework1 ===============> 업로드 기본 과제 1 : 8.8 응용: MonsterWorld 2
 │     ├── capture_image ===============> 실행 화면 캡쳐 이미지
@@ -126,7 +117,6 @@ CPP-Programming-Exercises
 │           ├── Monster.h
 │           └── Monsterworld.h
 │
-│ 
 ├── Week9_Homework1 ===============> 업로드 기본 과제 1 : 9.7 응용: MonsterWorld 3
 │     ├── capture_image ===============> 실행 화면 캡쳐 이미지
 │     └── Week9_Homework1  ===============> 실행을 위한 소스코드 있는 폴더
@@ -146,6 +136,5 @@ CPP-Programming-Exercises
 │           ├── Monster.h
 │           ├── VariousMonsters.h
 │           └── Monsterworld.h
-│ 
 │ 
 │ 
