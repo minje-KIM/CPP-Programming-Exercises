@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\minje\OneDrive - 동아대학교\github\CPP-Programming-Exercises\Week11_Homework2\Week11_Homework2\main.cpp(6,6): warning C4101: 'hour' :참조되지 않은 지역 변수입니다.
+C:\Users\minje\OneDrive - 동아대학교\github\CPP-Programming-Exercises\Week11_Homework2\Week11_Homework2\main.cpp(6,12): warning C4101: 'min' :참조되지 않은 지역 변수입니다.
+C:\Users\minje\OneDrive - 동아대학교\github\CPP-Programming-Exercises\Week11_Homework2\Week11_Homework2\main.cpp(6,17): warning C4101: 'sec' :참조되지 않은 지역 변수입니다.
+C:\Users\minje\OneDrive - 동아대학교\github\CPP-Programming-Exercises\Week11_Homework2\Week11_Homework2\TimeHMS.h(127): warning C4715: 'TimeHMS::operator[]': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Week11_Homework2.vcxproj -> C:\Users\minje\OneDrive - 동아대학교\github\CPP-Programming-Exercises\Week11_Homework2\x64\Debug\Week11_Homework2.exe
